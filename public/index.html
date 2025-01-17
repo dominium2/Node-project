@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Endpoints</title>
+</head>
+<body>
+    <h1>API Endpoints</h1>
+    <h2>User Endpoints</h2>
+    <ul>
+        <li><strong>GET</strong> /users - Retrieve a list of all users</li>
+        <li><strong>GET</strong> /users/:id - Retrieve details of a specific user by ID</li>
+        <li><strong>POST</strong> /users - Create a new user</li>
+        <li><strong>PUT</strong> /users/:id - Update an existing user</li>
+        <li><strong>DELETE</strong> /users/:id - Delete a user</li>
+    </ul>
+    
+    <h2>News Post Endpoints</h2>
+    <ul>
+        <li><strong>GET</strong> /news - Retrieve a list of all news posts</li>
+        <li><strong>GET</strong> /news/:id - Retrieve details of a specific news post by ID</li>
+        <li><strong>POST</strong> /news - Create a new news post</li>
+        <li><strong>PUT</strong> /news/:id - Update an existing news post</li>
+        <li><strong>DELETE</strong> /news/:id - Delete a news post</li>
+    </ul>
+    
+    <h2>Search and Pagination</h2>
+    <ul>
+        <li><strong>GET</strong> /users?limit=<em>number</em>&offset=<em>number</em> - Retrieve users with pagination</li>
+        <li><strong>GET</strong> /news?search=<em>value</em> - Search news posts by a specific field</li>
+    </ul>
+</body>
+</html>
